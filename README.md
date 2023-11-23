@@ -17,10 +17,10 @@ EMAIL_PORT=
 EMAIL_HOST_USER=
 EMAIL_HOST_PASSWORD=
 ```
+The postgres service is required to run the application
 
 Launching the application
 
-The postgres service is required to run the application
 ```
 cd hw_project
 python3 manage.py migrate
